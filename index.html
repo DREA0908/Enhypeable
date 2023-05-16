@@ -1,0 +1,622 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Enhypeable</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Unica+One&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Valera+Round&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer">
+    <link rel="stylesheet" href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.7/dist/umd/popper.min.js" integrity="sha384-zYPOMqeu1DAVkHiLqWBUTcbYfZ8osu1Nd6Z89ify25QV9guujx43ITvfi12/QExE" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.min.js" integrity="sha384-Y4oOpwW3duJdCWv5ly8SCFYWqFDsfob/3GkgExXKV4idmbt98QcxXYs9UoXAB7BZ" crossorigin="anonymous"></script>
+
+    <script>
+        var cart = [];
+             const cart2 = [];
+     
+             function addDOD() {
+                 const item = {
+                             prod_name: "Border: Day One",
+                             prod_price: parseInt(750)
+                         }
+                 cart.push(item)
+                 displayCart();
+             }
+             function addCH() {
+                 const item = {
+                             prod_name: "Bprder: Carnival",
+                             prod_price: parseInt(750)
+                         }
+                 cart.push(item)
+                 displayCart();
+             }
+             function addDS() {
+                 const item = {
+                             prod_name: "Dimension: Dilemma",
+                             prod_price: parseInt(800)
+                         }
+                 cart.push(item)
+                 displayCart();
+             }
+             function addAY() {
+                 const item = {
+                             prod_name: "Dimension: Answer - Yet",
+                             prod_price: parseInt(800)
+                         }
+                 cart.push(item)
+                 displayCart();
+             }
+             function addDDV() {
+                 const item = {
+                             prod_name: "Day 1: D version",
+                             prod_price: parseInt(850)
+                         }
+                 cart.push(item)
+                 displayCart();
+             }
+             function addDMV() {
+                 const item = {
+                             prod_name: "Day 1: M version",
+                             prod_price: parseInt(850)
+                         }
+                 cart.push(item)
+                 displayCart();
+             }
+             function addLS() {
+                 const item = {
+                             prod_name: "Enhypen Light Stick",
+                             prod_price: parseInt(2500)
+                         }
+                 cart.push(item)
+                 displayCart();
+             }
+             function addJay() {
+                 const item = {
+                             prod_name: "Enhypen Dicon DFesta Mini Edition: Jay",
+                             prod_price: parseInt(2500)
+                         }
+                 cart.push(item)
+                 displayCart();
+             }
+             function addJake() {
+                 const item = {
+                             prod_name: "Enhypen Dicon DFesta Mini Edition: Jake",
+                             prod_price: parseInt(2500)
+                         }
+                 cart.push(item)
+                 displayCart();
+             }
+             function addHeesung() {
+                 const item = {
+                             prod_name: "Enhypen Dicon DFesta Mini Edition: Heesung",
+                             prod_price: parseInt(2500)
+                         }
+                 cart.push(item)
+                 displayCart();
+             }
+             function addSunoo() {
+                 const item = {
+                             prod_name: "Enhypen Dicon DFesta Mini Edition: Sunoo",
+                             prod_price: parseInt(2500)
+                         }
+                 cart.push(item)
+                 displayCart();
+             }
+             function addJungwon() {
+                 const item = {
+                             prod_name: "Enhypen Dicon DFesta Mini Edition: Jungwon",
+                             prod_price: parseInt(2500)
+                         }
+                 cart.push(item)
+                 displayCart();
+             }
+             function addZH() {
+                 const item = {
+                             prod_name: "Zip up Hodie",
+                             prod_price: parseInt(3500)
+                         }
+                 cart.push(item)
+                 displayCart();
+             }
+             function addTSW() {
+                 const item = {
+                             prod_name: "T-Shirt (white)",
+                             prod_price: parseInt(2000)
+                         }
+                 cart.push(item)
+                 displayCart();
+             }
+             function addTSB() {
+                 const item = {
+                             prod_name: "T-Shirt ver 2 (black))",
+                             prod_price: parseInt(2000)
+                         }
+                 cart.push(item)
+                 displayCart();
+             }
+             function addSB() {
+                 const item = {
+                             prod_name: "Shopper Bag",
+                             prod_price: parseInt(500)
+                         }
+                 cart.push(item)
+                 displayCart();
+             }
+             function addPCB() {
+                 const item = {
+                             prod_name: "Photocard Book",
+                             prod_price: parseInt(1350)
+                         }
+                 cart.push(item)
+                 displayCart();
+             }
+             function addPB() {
+                 const item = {
+                             prod_name: "Postcard Book",
+                             prod_price: parseInt(1200)
+                         }
+                 cart.push(item)
+                 displayCart();
+             }
+             function addBTS() {
+                 const item = {
+                             prod_name: "BTS Light Stick",
+                             prod_price: parseInt(2250)
+                         }
+                 cart.push(item)
+                 displayCart();
+             }
+             function addTXT() {
+                 const item = {
+                             prod_name: "TXT Light Stick",
+                             prod_price: parseInt(2200)
+                         }
+                 cart.push(item)
+                 displayCart();
+             }
+             function addNJ() {
+                 const item = {
+                             prod_name: "New jeans Light Stick",
+                             prod_price: parseInt(2750)
+                         }
+                 cart.push(item)
+                 displayCart();
+             }
+             function addST() {
+                 const item = {
+                             prod_name: "Seventeen Light Stick",
+                             prod_price: parseInt(2300)
+                         }
+                 cart.push(item)
+                 displayCart();
+             }
+             function addLS() {
+                 const item = {
+                             prod_name: "LE SSERAFIM Light Stick",
+                             prod_price: parseInt(2700)
+                         }
+                 cart.push(item)
+                 displayCart();
+             }
+             function addNT() {
+                 const item = {
+                             prod_name: "&TEAM Light Stick",
+                             prod_price: parseInt(2000)
+                         }
+                 cart.push(item)
+                 displayCart();
+             }
+     
+             function removeItem(index) {
+                 cart.splice(index, 1);
+                 displayCart();
+             }
+     
+             function displayCart() {
+                 var table = document.getElementById("cartTable");
+                 table.innerHTML = "<tr><th>Item</th><th>Price</th><th>Remove</th></tr>";
+                 const totalText = document.getElementById("total");
+                 var total = 0;
+                 for (var i = 0; i < cart.length; i++) {
+                     var item = cart[i].prod_name;
+                     var price = cart[i].prod_price;
+                     var row = table.insertRow(-1);
+                     var itemCell = row.insertCell(0);
+                     var priceCell = row.insertCell(1);
+                     var removeCell = row.insertCell(2);
+                     itemCell.innerHTML = cart[i].prod_name;
+                     priceCell.innerHTML = '₱' + cart[i].prod_price;
+                     removeCell.innerHTML = "<button onclick='removeItem(" + i + ")'>Remove</button>";
+     
+                     total += parseInt(cart[i].prod_price);
+                     totalText.innerHTML = `${total}.00`;
+                 }
+                 if (cart.length == 0) {
+                     totalText.innerHTML = `0.00`;
+                 }
+                 const cust_order = document.getElementById("cust_order");
+                 cart2.splice(i, 1)
+                 cust_order.value = JSON.stringify(cart);
+     
+                 console.log(i);
+                 console.log(cart);}
+     </script>
+    <style>
+        .navbar-custom {
+            background-color:coral !important; 
+        }
+
+        .mainhome{
+            background-attachment: fixed;
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+
+            background-position-y: 50px;
+        }
+
+        .accordion-button{
+            background-color: rgba(255, 127, 80, 0.801);          
+        }
+
+        ::selection{
+            background-color: rgba(255, 127, 80, 0.801);
+        }
+    </style>
+</head>
+<body>
+<div>
+    <nav class="navbar navbar-expand-lg navbar-dark navbar-custom" aria-label="Fifth navbar example">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#"><img src="logo.png" alt="" width="250" height="50" class="d-inline-block align-text-top"></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarText">
+              <ul class="navmenu navbar-nav me-auto mb-2 mb-lg-0">
+                <li class="nav-item">
+                  <a href="index.html">Home</a>
+                </li>
+                <li class="nav-item">
+                  <a href="#products">Products</a>
+                </li>
+                <li class="nav-item">
+                  <a href="enhypeable_about_us.html">About us</a>
+                </li>
+                <li class="nav-item">
+                  <a href="#checkout"><i class='bx bxs-cart-alt' ></i></a>
+                </li>
+              </ul>
+              <span class="navbar-text">
+                Love your En(hype)n boys!
+              </span>
+            </div>
+          </div>
+        </nav>
+
+<section class="mainhome">
+    <div class="maintext">
+        <h5>Support your En(hype)n boys!</h5>
+        <h2>Buy their <br> albums now~</h2>
+        <p>Either you Go Big or Go Home !!</p>
+
+        <a href="#products" class="mainbtn">Shop Now! <i class='bx bx-chevrons-right'></i></a>
+    </div>
+</section>
+</div>
+<div class="container">
+<h1 class="mt-3"><a id="products">Products</a></h1>
+<hr>
+<div class="row">
+    <div class="col-md-4">
+        <div class="accordion">
+            <div class="accordion-item">
+              <h2 class="accordion-header">
+                <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                  Albums
+                </button>
+              </h2>
+              <div id="collapseOne" class="accordion-collapse collapse show" data-bs-parent="#accordionExample">
+                <div class="accordion-body">
+                    <div class="card my-2 album">
+                        <img src="https://nolae.eu/cdn/shop/products/enhypen-1st-mini-border-day-one-255034_1024x1024.jpg?v=1616537577" class="card-img-top" alt="BorderDayOne">
+                        <div class="card-body">
+                            <h5 class="card-title" style="font-weight:bolder;">Border: Day One</h5>
+                            <p class="card-text">The first album of Enhypen!</p>
+                            <p class="card-text price">₱ 750</p>
+                            <button class="btn btnalbum" onclick="addDOD()">Add to Cart</button>
+                        </div>
+                    </div>
+                    <div class="card my-2 album">
+                        <img src="https://cdn.shopify.com/s/files/1/0260/2667/2233/products/e1.png?v=1617592230" class="card-img-top" alt="BordeCarnival">
+                        <div class="card-body">
+                            <h5 class="card-title" style="font-weight:bolder;">Border: Carnival</h5>
+                            <p class="card-text">The second album of Enhypen!</p>
+                            <p class="card-text price">₱ 750</p>
+                            <button class="btn btnalbum" onclick="addCH()">Add to Cart</button>
+                        </div>
+                    </div>
+                    <div class="card my-2 album">
+                        <img src="https://cdn.shopify.com/s/files/1/0469/3927/5428/products/enhypen-vol1-dimension-dilemma-531508.jpg" class="card-img-top" alt="DimensionDilemma">
+                        <div class="card-body">
+                            <h5 class="card-title" style="font-weight:bolder;">Dimension: Dilemma</h5>
+                            <p class="card-text">The third album of Enhypen!</p>
+                            <p class="card-text price">₱ 800</p>
+                            <button class="btn btnalbum" onclick="addDS()">Add to Cart</button>
+                        </div>
+                    </div>
+                    <div class="card my-2 album">
+                        <img src="https://m.media-amazon.com/images/I/41207kmSx5L._UF1000,1000_QL80_.jpg" class="card-img-top" alt="DimensionAnswer">
+                        <div class="card-body">
+                            <h5 class="card-title" style="font-weight:bolder;">Dimension: Answer - Yet</h5>
+                            <p class="card-text">The fourth album of Enhypen!</p>
+                            <p class="card-text price">₱ 800</p>
+                            <button class="btn btnalbum" onclick="addAY()">Add to Cart</button>
+                        </div>
+                    </div>
+                    <div class="card my-2 album">
+                        <img src="https://m.media-amazon.com/images/I/71FfM2RGN8L._UF1000,1000_QL80_.jpg" class="card-img-top" alt="ManifestoverD">
+                        <div class="card-body">
+                            <h5 class="card-title" style="font-weight:bolder;">Manifesto Day 1: D Version</h5>
+                            <p class="card-text">The fifth album of Enhypen, D version!</p>
+                            <p class="card-text price">₱ 850</p>
+                            <button class="btn btnalbum" onclick="addDDV()">Add to Cart</button>
+                        </div>
+                    </div>
+                    <div class="card my-2 album">
+                        <img src="https://nolae.eu/cdn/shop/products/enhypen-manifesto-day-1-nolae-581445_1024x1024.webp?v=1655188240" class="card-img-top" alt="ManifestoverM">
+                        <div class="card-body">
+                            <h5 class="card-title" style="font-weight:bolder;">Manifesto Day 1: M Version</h5>
+                            <p class="card-text">The fifth album of Enhypen, M version!</p>
+                            <p class="card-text price">₱ 850</p>
+                            <button class="btn btnalbum" onclick="addDMV()">Add to Cart</button>
+                        </div>
+                    </div>
+
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                  Other Merch!
+                </button>
+              </h2>
+              <div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                <div class="accordion-body">
+                    <div class="card my-2 merch">
+                        <img src="https://lzd-img-global.slatic.net/g/p/fe29bfb949783ff259da5ca4d5f64599.jpg_2200x2200q80.jpg_.webp" class="card-img-top" alt="Lightstick">
+                        <div class="card-body">
+                            <h5 class="card-title" style="font-weight:bolder;">Enhypen Light Stick</h5>
+                            <p class="card-text">The official light stick of Enhypen!</p>
+                            <p class="card-text price">₱ 2500</p>
+                            <button class="btn btnmerch" onclick="addLS()">Add to Cart</button>
+                        </div>
+                    </div>
+                    <div class="card my-2 merch">
+                        <img src="https://cdn.shopify.com/s/files/1/0589/0844/2805/products/enhypen-md-goods-3-jay-enhypen-dicon-d-festa-mini-edition-34347286331573_1000x.jpg?v=1663718025" class="card-img-top" alt="DDJAY">
+                        <div class="card-body">
+                            <h5 class="card-title" style="font-weight:bolder;">Enhypen Dicon D'Festa Mini Edition: Jay</h5>
+                            <p class="card-text">Get your bias, Jay!</p>
+                            <p class="card-text price">₱ 2500</p>
+                            <button class="btn btnmerch" onclick="addJay()">Add to Cart</button>
+                        </div>
+                    </div>
+                    <div class="card my-2 merch">
+                        <img src="https://cdn.shopify.com/s/files/1/0589/0844/2805/products/enhypen-md-goods-4-jake-enhypen-dicon-d-festa-mini-edition-34347286036661_1000x.jpg?v=1663718022" class="card-img-top" alt="DDJAKE">
+                        <div class="card-body">
+                            <h5 class="card-title" style="font-weight:bolder;">Enhypen Dicon D'Festa Mini Edition: Jake</h5>
+                            <p class="card-text">Get your bias, Jake!</p>
+                            <p class="card-text price">₱ 2500</p>
+                            <button class="btn btnmerch" onclick="addJake()">Add to Cart</button>
+                        </div>
+                    </div>
+                    <div class="card my-2 merch">
+                        <img src="https://cdn.shopify.com/s/files/1/0589/0844/2805/products/enhypen-md-goods-2-heeseung-enhypen-dicon-d-festa-mini-edition-34347286429877_288x.jpg?v=1663718028" class="card-img-top" alt="DDHEESUNG">
+                        <div class="card-body">
+                            <h5 class="card-title" style="font-weight:bolder;">Enhypen Dicon D'Festa Mini Edition: Heesung</h5>
+                            <p class="card-text">Get your bias, Heesung!</p>
+                            <p class="card-text price">₱ 2500</p>
+                            <button class="btn btnmerch" onclick="addHeesung()">Add to Cart</button>
+                        </div>
+                    </div>
+                    <div class="card my-2 merch">
+                        <img src="https://cdn.shopify.com/s/files/1/0589/0844/2805/products/enhypen-md-goods-6-sunoo-enhypen-dicon-d-festa-mini-edition-34347285545141_1000x.jpg?v=1663718016" class="card-img-top" alt="DDSUNOO">
+                        <div class="card-body">
+                            <h5 class="card-title" style="font-weight:bolder;">Enhypen Dicon D'Festa Mini Edition: Sunoo</h5>
+                            <p class="card-text">Get your bias, Sunoo!</p>
+                            <p class="card-text price">₱ 2500</p>
+                            <button class="btn btnmerch" onclick="addSunoo()">Add to Cart</button>
+                        </div>
+                    </div>
+                    <div class="card my-2 merch">
+                        <img src="https://cdn.shopify.com/s/files/1/0589/0844/2805/products/enhypen-md-goods-1-jungwon-enhypen-dicon-d-festa-mini-edition-34347286495413_288x.jpg?v=1663718033" class="card-img-top" alt="DDJUNGWON">
+                        <div class="card-body">
+                            <h5 class="card-title" style="font-weight:bolder;">Enhypen Dicon D'Festa Mini Edition: Jungwon</h5>
+                            <p class="card-text">Get your bias, Jungwon!</p>
+                            <p class="card-text price">₱ 2500</p>
+                            <button class="btn btnmerch" onclick="addJungwon()">Add to Cart</button>
+                        </div>
+                    </div>
+
+                </div>
+              </div>
+            </div>
+          </div>
+    </div>
+    
+    <div class="col-md-4">
+        <div class="accordion">
+            <div class="accordion-item">
+              <h2 class="accordion-header">
+                <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="true" aria-controls="collapseThree">
+                  Manifesto in Manila Merch
+                </button>
+              </h2>
+              <div id="collapseThree" class="accordion-collapse collapse show" data-bs-parent="#accordionExample">
+                <div class="accordion-body">
+                    <div class="card my-2 merch">
+                        <img src="https://pbs.twimg.com/media/FnxbvIbaUAEjpfF.jpg:large" class="card-img-top" alt="concertmerchsummary">
+                    </div>
+                    <div class="card my-2 concert">
+                        <div class="card-body">
+                            <h5 class="card-title" style="font-weight:bolder;">Enhypen Zip up hoodie - 11</h5>
+                            <p class="card-text">Get cozy with this concert merch!</p>
+                            <p class="card-text price">₱ 3500</p>
+                            <button class="btn btnconcert" onclick="addZH()">Add to Cart</button>
+                        </div>
+                    </div>
+                    <div class="card my-2 concert">
+                        <div class="card-body">
+                            <h5 class="card-title" style="font-weight:bolder;">Enhypen T shirt (white) - 12</h5>
+                            <p class="card-text">Get cozy with this concert merch!</p>
+                            <p class="card-text price">₱ 2000</p>
+                            <button class="btn btnconcert" onclick="addTSW()">Add to Cart</button>
+                        </div>
+                    </div>
+                    <div class="card my-2 concert">
+                        <div class="card-body">
+                            <h5 class="card-title" style="font-weight:bolder;">Enhypen T shirt (black) - 13</h5>
+                            <p class="card-text">Get cozy with this concert merch!</p>
+                            <p class="card-text price">₱ 2000</p>
+                            <button class="btn btnconcert" onclick="addTSB()">Add to Cart</button>
+                        </div>
+                    </div>
+                    <div class="card my-2 concert">
+                        <div class="card-body">
+                            <h5 class="card-title" style="font-weight:bolder;">Enhypen Shopper Bag - 16</h5>
+                            <p class="card-text">Carry your essentials with this concert merch!</p>
+                            <p class="card-text price">₱ 500</p>
+                            <button class="btn btnconcert" onclick="addSB()">Add to Cart</button>
+                        </div>
+                    </div>
+                    <div class="card my-2 concert">
+                        <div class="card-body">
+                            <h5 class="card-title" style="font-weight:bolder;">Enhypen Photocard Binder - 04</h5>
+                            <p class="card-text">Show off your beloved pcs of your bias!</p>
+                            <p class="card-text price">₱ 1350</p>
+                            <button class="btn btnconcert" onclick="addPCB()">Add to Cart</button>
+                        </div>
+                    </div>
+                    <div class="card my-2 concert">
+                        <div class="card-body">
+                            <h5 class="card-title" style="font-weight:bolder;">Enhypen Postcard Book - 06</h5>
+                            <p class="card-text">Show off your beloved postcards!</p>
+                            <p class="card-text price">₱ 1200</p>
+                            <button class="btn btnconcert" onclick="addPB()">Add to Cart</button>
+                        </div>
+                    </div>
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+                  Support other HYBE artists!
+                </button>
+              </h2>
+              <div id="collapseFour" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                <div class="accordion-body">
+                    <div class="card my-2 hybe">
+                        <img src="https://cdn.shopify.com/s/files/1/0281/7815/3547/products/light-stick-army-bomb-ver-2-https-tinyurl-com-yce6ee9e-29549587366059_1024x.jpg?v=1630849015" class="card-img-top" alt="btsls">
+                        <div class="card-body">
+                            <h5 class="card-title" style="font-weight:bolder;">BTS Lightstick</h5>
+                            <p class="card-text">Get your own BTS lightstick!</p>
+                            <p class="card-text price">₱ 2250</p>
+                            <button class="btn btnhybe" onclick="addBTS()">Add to Cart</button>
+                        </div>
+                    </div>
+                    <div class="card my-2 hybe">
+                        <img src="https://cdn.shopify.com/s/files/1/0281/7815/3547/products/txt-official-light-stick-cokodive-ls-22826365059243.jpg?v=1607438277" class="card-img-top" alt="txtls">
+                        <div class="card-body">
+                            <h5 class="card-title" style="font-weight:bolder;">TXT Lightstick</h5>
+                            <p class="card-text">Get your own TXT lightstick!</p>
+                            <p class="card-text price">₱ 2200</p>
+                            <button class="btn btnhybe" onclick="addTXT()">Add to Cart</button>
+                        </div>
+                    </div>
+                    <div class="card my-2 hybe">
+                        <img src="https://media.karousell.com/media/photos/products/2023/4/1/new_jeans_official_lightstick_1680324004_69f631de_progressive.jpg" class="card-img-top" alt="njls">
+                        <div class="card-body">
+                            <h5 class="card-title" style="font-weight:bolder;">New Jeans Lightstick</h5>
+                            <p class="card-text">Get your own New Jeans lightstick!</p>
+                            <p class="card-text price">₱ 2750</p>
+                            <button class="btn btnhybe" onclick="addNJ()">Add to Cart</button>
+                        </div>
+                    </div>
+                    <div class="card my-2 hybe">
+                        <img src="https://cdn.shopify.com/s/files/1/0281/7815/3547/products/official-seventeen-official-carat-bong-light-stick-ver-2-cokodive-ls-22826371186859.jpg?v=1606044565" class="card-img-top" alt="17ls">
+                        <div class="card-body">
+                            <h5 class="card-title" style="font-weight:bolder;">Seventeen Lightstick</h5>
+                            <p class="card-text">Get your own Seventeen lightstick!</p>
+                            <p class="card-text price">₱ 2300</p>
+                            <button class="btn btnhybe" onclick="addST()">Add to Cart</button>
+                        </div>
+                    </div>
+                    <div class="card my-2 hybe">
+                        <img src="https://cdn.shopify.com/s/files/1/0589/0844/2805/products/le-sserafim-md-goods-le-sserafim-official-light-stick-35215361409205.jpg?v=1679645501" class="card-img-top" alt="LSls">
+                        <div class="card-body">
+                            <h5 class="card-title" style="font-weight:bolder;">LE SSERAFIM Lightstick</h5>
+                            <p class="card-text">Get your own LE SSERAFIM lightstick!</p>
+                            <p class="card-text price">₱ 2700</p>
+                            <button class="btn btnhybe" onclick="addLS()">Add to Cart</button>
+                        </div>
+                    </div>
+                    <div class="card my-2 hybe">
+                        <img src="https://cdn-contents.weverseshop.io/public/shop/526f4a9024eb3c1a2a40cf0c28a3f17f.png" class="card-img-top" alt="NTls">
+                        <div class="card-body">
+                            <h5 class="card-title" style="font-weight:bolder;">&TEAM Lightstick</h5>
+                            <p class="card-text">Get your own &TEAM lightstick!</p>
+                            <p class="card-text price">₱ 2000</p>
+                            <button class="btn btnhybe" onclick="addNT()">Add to Cart</button>
+                        </div>
+                    </div>
+                </div>
+              </div>
+            </div>
+          </div>
+    </div>
+
+
+    <div class="col-md-4">
+        <div class="card mb-2 checkout">
+            <div class="card-body">
+                <h2><a id="checkout">Checkout</a></h2>
+                <br>
+                <div class="mb-3">
+                <h6>Cart</h6>
+
+                <table class="table">
+                <tbody id="cartTable"></tbody>
+                </table>
+                <div id="totalDiv">
+                    Total: ₱<span id="total">0.00</span>
+                </div>
+
+                <hr>
+
+                <form action="http://sirjm.infinityfreeapp.com/checkout.php" method="GET" class="m-3">
+                    <div class="mb-3">
+                        Customer Name: <input type="text" name="cust_name" placeholder="Enter your full name" class="form-control" required><br>
+                        Customer Email: <input type="text" name="cust_email" placeholder="Enter your delivery address" class="form-control" required><br>
+                        Delivery Address: <input type="text" name="cust_addr" placeholder="Enter your delivery address" class="form-control" required><br><br>
+                    </div>
+                    <input type="hidden" id="cust_order" name="cust_order">
+                    <button class="mainbtn" type="submit">Place Order</button>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+</div>
+</div>
+
+</body>
+</html>
+
